@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "7e0281cf-1ebf-41a4-8855-52c242370f32",
+		"name": ".netAlura",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13788802"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Titulo\":\"A volta dos q n foram\",\r\n    \"Genero\":\"Terir\",\r\n    \"Duracao\":7.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7217/filme",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7217",
+					"path": [
+						"filme"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Titulo\":\"A volta dos q n foram\",\r\n    \"Genero\":\"Terir\",\r\n    \"Duracao\":7.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7217/filme",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7217",
+					"path": [
+						"filme"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Titulo\":\"A volta dos q n foram\",\r\n    \"Genero\":\"Terir\",\r\n    \"Duracao\":7.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7217",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7217"
+				}
+			},
+			"response": []
+		}
+	]
+}
